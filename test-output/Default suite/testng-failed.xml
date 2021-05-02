@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="KindredGroup.Unibet.betPlacementScenario">
+      <class name="Test.SearchTest">
         <methods>
-          <include name="driver"/>
-          <include name="clickOnLowPrice"/>
+          <include name="test_driver"/>
+          <include name="test_verify"/>
         </methods>
-      </class> <!-- KindredGroup.Unibet.betPlacementScenario -->
+      </class> <!-- Test.SearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

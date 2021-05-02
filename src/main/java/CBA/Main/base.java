@@ -1,4 +1,4 @@
-package KindredGroup.Unibet;
+package CBA.Main;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,10 +11,10 @@ public class base {
 public WebDriver driver;
 public Properties prop;
 //Driver Initialization	
-public WebDriver browserDriver(String browser) throws IOException {
+public WebDriver test_browserDriver(String browser) throws IOException {
 		
 		prop= new Properties();
-		FileInputStream fis= new FileInputStream("C:\\Users\\Naresh Reddy\\eclipse-workspace\\Unibet\\External\\Config.properties");
+		FileInputStream fis= new FileInputStream("C:\\Users\\Naresh Reddy\\eclipse-workspace\\CBA\\External\\Config.properties");
 		prop.load(fis);
 	    browser= prop.getProperty("browser");
 		if(browser.equals("Chrome")) {
